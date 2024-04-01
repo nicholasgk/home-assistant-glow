@@ -9,6 +9,7 @@ api:
             id: button_reset_total_1
         - button.press:
             id: button_reset_total_2
+
 number:
   # Set the pulse rate of the LED on your meter
   - platform: template
