@@ -18,6 +18,11 @@ substitutions:
   led_pin_red: GPIO2
   led_pin_green: GPIO4
 
+  timeout_1: 10 sec
+  filter_time_1: 30ms
+  timeout_2: 40 sec
+  filter_time_2: 30ms
+
 esphome:
   name: '${device_name}'
   comment: '${device_description}'
