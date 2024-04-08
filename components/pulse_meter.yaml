@@ -72,7 +72,7 @@ sensor:
     device_class: power
     icon: mdi:flash-outline
     accuracy_decimals: 0
-    internal_filter: 80ms
+    internal_filter: 40ms
     timeout: 10 sec
     pin: ${pulse_pin_1}
     on_raw_value:
@@ -107,8 +107,8 @@ sensor:
     device_class: power
     icon: mdi:flash-outline
     accuracy_decimals: 0
-    internal_filter: 80ms
-    timeout: 10 sec
+    internal_filter: 40ms
+    timeout: 40 sec
     pin: ${pulse_pin_2}
     on_raw_value:
       then:
