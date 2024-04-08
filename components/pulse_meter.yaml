@@ -74,9 +74,9 @@ sensor:
     accuracy_decimals: 0
     internal_filter: 80ms
     timeout: 10 sec
-    mode: 
-	    input: true
-	    pullup: true
+    #mode: 
+#	    input: true
+#	    pullup: true
     pin: ${pulse_pin_1}
     on_raw_value:
       then:
@@ -112,9 +112,9 @@ sensor:
     accuracy_decimals: 0
     internal_filter: 80ms
     timeout: 10 sec
-    mode: 
-	    input: true
-	    pullup: true
+   # mode: 
+#	    input: true
+#	    pullup: true
     pin: ${pulse_pin_2}
     on_raw_value:
       then:
