@@ -73,6 +73,7 @@ sensor:
     icon: mdi:flash-outline
     accuracy_decimals: 0
     internal_filter: 80ms
+    timeout: 10 sec
     pin: ${pulse_pin_1}
     on_raw_value:
       then:
@@ -107,6 +108,7 @@ sensor:
     icon: mdi:flash-outline
     accuracy_decimals: 0
     internal_filter: 80ms
+    timeout: 10 sec
     pin: ${pulse_pin_2}
     on_raw_value:
       then:
