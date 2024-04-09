@@ -126,7 +126,6 @@ sensor:
           min_value: 0
           max_value: 170
           ignore_out_of_range: true 
-    filters:
       # multiply value = (60 / imp value) * 1000
       # - multiply: 60
       - lambda: return x * ((60.0 / id(select_pulse_rate).state) * 1000.0);
