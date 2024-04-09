@@ -20,10 +20,8 @@ substitutions:
 
   timeout_1: 10 sec
   filter_time_1: 30ms
-  max_value_1: 50
   timeout_2: 40 sec
   filter_time_2: 30ms
-  max_value_2: 170
 
 esphome:
   name: '${device_name}'
