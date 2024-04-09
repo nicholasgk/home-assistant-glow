@@ -19,7 +19,7 @@ light:
   - platform: binary
     internal: true
     id: led_green
-    name: Red
+    name: Green
     output: output_green
 
 # Status LED for connection
