@@ -83,6 +83,10 @@ sensor:
         - light.turn_off:
             id: led_red
     filters:
+      - clamp:
+          min_value: 0
+          max_value: ${max_value_1}
+          ignore_out_of_range: true    
       # multiply value = (60 / imp value) * 1000
       # - multiply: 60
       - lambda: return x * ((60.0 / id(select_pulse_rate).state) * 1000.0);
@@ -117,6 +121,11 @@ sensor:
         - delay: 0.2s
         - light.turn_off:
             id: led_green
+    filters:
+      - clamp:
+          min_value: 0
+          max_value: ${max_value_2}
+          ignore_out_of_range: true 
     filters:
       # multiply value = (60 / imp value) * 1000
       # - multiply: 60
