@@ -85,7 +85,7 @@ sensor:
     filters:
       - clamp:
           min_value: 0
-          max_value: ${max_value_1}
+          max_value: 50
           ignore_out_of_range: true    
       # multiply value = (60 / imp value) * 1000
       # - multiply: 60
@@ -124,7 +124,7 @@ sensor:
     filters:
       - clamp:
           min_value: 0
-          max_value: ${max_value_2}
+          max_value: 170
           ignore_out_of_range: true 
     filters:
       # multiply value = (60 / imp value) * 1000
